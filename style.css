@@ -6,6 +6,7 @@
 .header {
         font-size: 40px;
 }
+
 .p1 {
     margin: 20px;
     border: solid 6px;
@@ -21,10 +22,11 @@ h1 {font-size: 30px;
 }
 .grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 200px 200px;
     grid-template-rows: 200px 200px;
-    grid-gap: 1.5em;
+    grid-gap: 40px;
   }
+
 body {
     background-color: bisque;
 }
