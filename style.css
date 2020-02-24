@@ -24,9 +24,14 @@ h1 {font-size: 30px;
     display: grid;
     grid-template-columns: 200px 200px;
     grid-template-rows: 200px 200px;
-    grid-gap: 40px;
+    grid-gap: 60px;
   }
 
 body {
     background-color: bisque;
 }
+
+.redirect {
+    window.location.replace"https://rpourmand.github.io/html-project2/index.html";
+    return false;
+  }
